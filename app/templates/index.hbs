@@ -1,1 +1,7 @@
 <h1>Index view</h1>
+
+<ul>
+  {{#each todo in model}}
+    <li>{{todo.name}}</li>
+  {{/each}}
+</ul>
