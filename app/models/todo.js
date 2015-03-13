@@ -1,5 +1,14 @@
 import DS from 'ember-data';
 
-export default DS.Model.extend({
+var Todo = DS.Model.extend({
   name: DS.attr('string')
 });
+
+//Todo.reopenClass({
+  //FIXTURES: [
+    //{id: 1, name: 'Dummyy'},
+    //{id: 2, name: 'Lorem'}
+  //]
+//});
+
+export default Todo;

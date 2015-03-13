@@ -4,7 +4,7 @@ module.exports = function(app) {
 
   todosRouter.get('/', function(req, res) {
     res.send({
-      'todos': [{id: 1, name: 'Dummyy'}, {id: 2, name: 'Lorem'}]
+      'todos': [{id: 1, name: 'Dummy'}, {id: 2, name: 'Lorem'}]
     });
   });
 
